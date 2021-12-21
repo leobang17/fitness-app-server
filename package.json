@@ -1,0 +1,34 @@
+{
+  "name": "routine-server",
+  "version": "1.0.0",
+  "description": "routine application server part",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leobang17/fitness-app-server.git"
+  },
+  "author": "Leo Bang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leobang17/fitness-app-server/issues"
+  },
+  "homepage": "https://github.com/leobang17/fitness-app-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "regex-email": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

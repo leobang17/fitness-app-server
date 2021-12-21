@@ -1,0 +1,20 @@
+# Compiled output
+/node_modules
+# /queries
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+
+# Secrets
+.env
+config.*
+
+# IDE
+.vscode/*
